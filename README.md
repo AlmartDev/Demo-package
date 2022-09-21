@@ -9,6 +9,9 @@ Insider engine demo package is a sample package to import into your projects and
 Open your project in the sandbox editor and, on the menu bar, go to ```file``` > ```import package```, write the https or ssh to the package, like this github repository
 ```
 https://github.com/AlmartDev/demo-package.git
+```
+orr with SSH
+```
 git@github.com:AlmartDev/demo-package.git
 ```
 and then click the import button.
