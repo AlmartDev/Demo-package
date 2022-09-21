@@ -4,12 +4,12 @@ Insider engine -> [github page](https://github.com/almartdev/insiderengine)
 Insider engine demo package is a sample package to import into your projects and use tools that are not installed by default on your insider engine version. To import a project please take a look at all this stuff down here! You will need to have installed [git](https://git-scm.com/downloads) to import them.
 
 # Import guide
-Open your project in the sandbox editor and, on the menu bar, go to ```file``` > ```import package```, write the url to the package, like this github rep 
+Open your project in the sandbox editor and, on the menu bar, go to ```file``` > ```import package```, write the https or ssh to the package, like this github rep 
 ```
 https://github.com/AlmartDev/demo-package.git
 ```
 and then click the import button.
-the package will be imported to the ```Assets``` folder on your project.
+the package will be imported to your project. So, to use the files into the package just include something like ```#include "yourpackage/yourfile.h"```
 
 # Package version
  - 1.0.0
