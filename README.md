@@ -10,7 +10,7 @@ Open your project in the sandbox editor and, on the menu bar, go to ```file``` >
 ```
 https://github.com/AlmartDev/demo-package.git
 ```
-orr with SSH
+or with SSH
 ```
 git@github.com:AlmartDev/demo-package.git
 ```
