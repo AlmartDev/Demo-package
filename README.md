@@ -9,6 +9,7 @@ Insider engine demo package is a sample package to import into your projects and
 Open your project in the sandbox editor and, on the menu bar, go to ```file``` > ```import package```, write the https or ssh to the package, like this github repository
 ```
 https://github.com/AlmartDev/demo-package.git
+git@github.com:AlmartDev/demo-package.git
 ```
 and then click the import button.
 the package will be imported to your project. So, to use the files into the package just include something like ```#include "yourpackage/yourfile.h"``` and then you can use all the stuff into the package.
