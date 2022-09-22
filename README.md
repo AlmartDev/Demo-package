@@ -15,7 +15,7 @@ or with SSH
 git@github.com:AlmartDev/demo-package.git
 ```
 and then click the import button.
-the package will be imported to your project. So, to use the files into the package just include something like ```#include "yourpackage/yourfile.h"``` and then you can use all the stuff into the package.
+the package will be imported to your project. So, to use the files into the package just include something like ```#include "../yourpackage/yourfile.h"``` and then you can use all the stuff into the package.
 
 # Package version
  - 1.0.0
