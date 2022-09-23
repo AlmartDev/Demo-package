@@ -1,5 +1,5 @@
 # Sample insider engine package
-Insider engine [0.5] -> [github page](https://github.com/almartdev/insiderengine)
+Insider engine [0.6] -> [github page](https://github.com/almartdev/insiderengine)
 
 #### Insider engine 0.5 doesnt have this feature yet. It'll be able on Insider engine version 0.6 or newer.
 
@@ -18,4 +18,4 @@ and then click the import button.
 the package will be imported to your project. So, to use the files into the package just include something like ```#include "../yourpackage/yourfile.h"``` and then you can use all the stuff into the package.
 
 # Package version
- - 1.0.0
+ - 1.0.1
