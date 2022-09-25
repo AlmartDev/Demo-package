@@ -19,3 +19,4 @@ the package will be imported to your project. So, to use the files into the pack
 
 # Package version
  - 1.0.1
+ - Oldest insider engine version tested in -> 0.6.0.1_build_4, [0.6]
