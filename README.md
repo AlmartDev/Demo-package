@@ -17,6 +17,8 @@ git@github.com:AlmartDev/demo-package.git
 and then click the import button.
 the package will be imported to your project. So, to use the files into the package just include something like ```#include "../yourpackage/yourfile.h"``` and then you can use all the stuff into the package.
 
+![Package importer window](https://github.com/AlmartDev/InsiderEngine/blob/main/Screenshots/ImportPackageWindow.png)
+
 # Package version
  - 1.0.1
  - Oldest insider engine version tested in -> 0.6.0.1_build_4, [0.6]
