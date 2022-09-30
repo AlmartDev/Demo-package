@@ -18,7 +18,7 @@ and then click the import button.
 the package will be imported to your project. So, to use the files into the package just include something like ```#include "../yourpackage/yourfile.h"``` and then you can use all the stuff into the package.
 
 - ## Import package window
-  ![Package importer window](https://github.com/AlmartDev/InsiderEngine/blob/main/Screenshots/ImportPackageWindow.png)
+  ![Package importer](https://github.com/AlmartDev/InsiderEngine/blob/f47896e5379fa23e052a660aec5953c153331164/Screenshots/ImportPackageWindow.png)
 
 # Package version
  - 1.0.1
