@@ -17,9 +17,16 @@ git@github.com:AlmartDev/demo-package.git
 and then click the import button.
 the package will be imported to your project. So, to use the files into the package just include something like ```#include "../yourpackage/yourfile.h"``` and then you can use all the stuff into the package.
 
-- ## Import package window
+  ## Import package window
   ![Package importer](https://github.com/AlmartDev/InsiderEngine/blob/f47896e5379fa23e052a660aec5953c153331164/Screenshots/ImportPackageWindow.png)
-
+  
+  ## What is a ```.PACK``` file?
+  If you wanna create your own package, you can create a ```.pack``` file to make insider engine now more stuff about your package. Look at ```demo-       package.pack``` to see the sample file. First line should be the package name, then the version, and a short description. Example:
+  ```
+demo-package
+1.0.0
+Hi, this is the sample package to import into your insider engine project
+  ```
 # Package version
  - 1.0.1
  - Oldest insider engine version tested in -> 0.6.0.1_build_4, [0.6]
