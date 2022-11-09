@@ -3,7 +3,7 @@ Last Insider engine version -> [github page](https://github.com/almartdev/inside
 
 #### Insider engine 0.5 doesnt have this feature yet. It'll be able on Insider engine version 0.6 or newer.
 
-Insider engine demo package is a sample package to import into your projects and use tools that are not installed by default on your insider engine version. To import a package please take a look at all this stuff down here! You will need to have installed [git](https://git-scm.com/downloads) to import them.
+Insider engine demo package is a sample package that you can import into your projects and use tools that are not installed in insider engine. To import a package look at all this stuff down here! You will need to have installed [git](https://git-scm.com/downloads) to import them.
 
 # Import guide
 Open your project in the sandbox editor and, on the menu bar, go to ```file``` > ```import package```, write the https or ssh to the package, like this github repository
@@ -15,17 +15,17 @@ or with SSH
 git@github.com:AlmartDev/demo-package.git
 ```
 and then click the import button.
-the package will be imported to your project. So, to use the files into the package just include something like ```#include "../yourpackage/yourfile.h"``` and then you can use all the stuff into the package.
+the package will be imported to your project. 
 
   ## Import package window
   ![Package importer](https://github.com/AlmartDev/InsiderEngine/blob/f47896e5379fa23e052a660aec5953c153331164/Screenshots/ImportPackageWindow.png)
   
   ## What is a ```.PACK``` file?
-  If you wanna create your own package, you can create a ```.pack``` file to make insider engine now more stuff about your package. Look at ```demo-       package.pack``` to see the sample file. First line should be the package name, then the version, and a short description. Example:
+  If you wanna create your own package, you can create a ```.pack``` file to make insider engine now more stuff about your package. Look at ```demo-package.pack``` to see the sample file. First line should be the package name, then the version, and a short description. Example:
   ```
 demo-package
 1.0.0
-Hi, this is the sample package to import into your insider engine project
+with demo package you can see how insider engine packages work
   ```
 # Package version
  - 1.0.1
