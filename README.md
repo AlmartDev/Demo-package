@@ -18,7 +18,7 @@ and then click the import button.
 the package will be imported to your project. 
 
   ## Import package window
-  ![Package importer](https://raw.githubusercontent.com/AlmartDev/InsiderEngine/latest/Screenshots/ImportPackageWindow.png)
+  ![Package importer](https://github.com/AlmartDev/InsiderEngine/blob/master/Screenshots/ImportPackageWindow.png)
   
   ## What is a ```.insiderpack``` file?
   If you wanna create your own package, you can create a ```..insiderpack``` file to make insider engine now more stuff about your package. Look at ```demo-package.insiderpack``` to see the sample file. First line should be the package name, then the version, and a short description. Example:
